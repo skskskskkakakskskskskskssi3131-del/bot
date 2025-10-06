@@ -1,0 +1,28 @@
+return
+
+os.remove(file_path)
+
+if text.strip():
+
+update.message.reply_text(" 📄 النص
+المستخرج :\n\n" + text.strip())
+eles
+update.message.reply_text("❌ لم  استطيع اتستخراج اي نص من اصوره.")   # داله التشغيل الرئيسيه  
+ def main(): 
+ updater = Updater(TOKEN,
+ use_context=True)
+ 
+ 
+ 
+ 
+ 
+ dp = updater.dispattcher
+ 
+ dp.add_handler(CommandHandler("star
+t",start))
+dp.add_handler(MessageHandler(filte
+rs.photo, handle_photo
+print("🤖 البوت يعمل اﻻن...")
+updater.idle()
+if _name_== '_main_';
+main()
